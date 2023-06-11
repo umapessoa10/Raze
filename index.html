@@ -377,7 +377,7 @@
 
 
 	#destinations {
-		background-color: #BCBFC7;
+		background-color: #1D2730;
 		display: none;
 		position: absolute;
 		top: 70px;
@@ -385,6 +385,32 @@
 		width: 250px;
 		padding: 5px;
 		border-radius: 10px;
+		border: 1px solid white;
+	}
+
+	#destinations button {
+		border: none;
+		background: transparent;
+		color: white;
+		font-weight: bold;
+		cursor: pointer;
+		font-size: 15px;
+	}
+
+	#destinations li {
+		text-decoration-color: white;
+
+	}
+
+	#destinations h2 {
+		color: white;
+		font-weight: bold;
+	}
+
+	#destinations .close-button {
+		position: absolute;
+		right: 10px;
+		top: 10px;
 	}
 
 	.X {
@@ -414,10 +440,10 @@
 			<h2>Mais visitados</h2>
 			<nav>
 				<ul>
-					<li><button onclick="placeholderFunction()">1</button></li>
-					<li><button onclick="placeholderFunction()">1</button></li>
-					<li><button onclick="placeholderFunction()">1</button></li>
-					<li><button onclick="placeholderFunction()">1</button></li>
+					<li><button onclick="">Start Page</button></li>
+					<li><button onclick="enterGame('crash')">Crash</button></li>
+					<li><button onclick="enterGame('dice')">Dice</button></li>
+					<li><button onclick="enterGame('tower')">Tower</button></li>
 				</ul>
 			</nav>
 		</div>
