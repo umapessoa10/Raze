@@ -1,0 +1,5 @@
+BG COLOR: #0F1923
+Gray: #1d2730
+Green: #04D47C
+Red: #F12C4C Hover: #d42a46
+Almost White: #BCBFC7
