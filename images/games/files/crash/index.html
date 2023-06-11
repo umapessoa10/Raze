@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background-color: #0F1923;
+      font-family: 'Trebuchet MS';
+    }
+
+    .game {
+      overflow: hidden; 
+      height: 480px; 
+      width: 640px;
+      border: black 5px solid;
+      border-radius: 10px;
+      position: absolute;
+      right: 15px;
+    }
+
+    .container {
+      background-color: #1D2730;
+      margin: 15px;
+      border-radius: 10px;
+      display: flex;
+      padding: 15px;
+      min-height: 495px;
+
+    }
+
+    .vr {
+      width: 0;
+      height: 480px;
+      color: white;
+      position: absolute;
+      left: 645px;
+    }
+
+    .btn-container {
+      position: absolute;
+      left: 30px;
+      width: 400px;
+      height: 80px;
+      background-color: #2a3845;
+      border-radius: 5px;
+    }
+
+    .btn-container button {
+      background-color: #0F1923;
+      border: none;
+      color: white;
+      text-align: center;
+      width: 40%;
+      font-weight: bold;
+      padding: 1%;
+      margin: 5%;
+      padding-bottom: 3%; padding-top: 3%;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .vr2 {
+      width: 0;
+      height: 67%;
+      border-color: #0F1923;
+      top: 3px;
+      position: absolute;
+      left: 50%;
+    }
+
+    h2 {
+      font-weight: bold;
+      color: white;
+    }
+
+    h3 {
+      font-weight: bold;
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+<div class="game">
+    <iframe style="margin-top:-50px; margin-left:-11px;" scrolling="no" allowtransparency="false" width="658" height="536" bgcolor=#220000 src="https://scratch.mit.edu/projects/863822870/embed" allowfullscreen></iframe>
+    <br/><br/>
+</div>
+    <hr class="vr">
+</div>
+    <h2>Tipo de Aposta</h2>
+    <div class="btn-container">
+      <button>Manual</button><hr class="vr2"><button>Automática</button>
+    </div>
+    <br>
+    <h2>Quantia</h2>
+    <input type="text" class="textinput">
+    <br>
+    <h3>Para apostas automáticas: Número de apostas</h3>
+    <input type="text" class="textinput">
+    <br>
+    <br>
+    <button class="big-btn">Retire!</button>
+</body>
+
+</html>
